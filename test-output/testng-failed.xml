@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.test.listener.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Selenium Assignment For Testing(failed)">
+    <parameter name="appUrl" value="https://www.makemytrip.com/"/>
+    <classes>
+      <class name="com.makemytrip.test.MakeMytriptest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="setup"/>
+          <include name="pagesetup"/>
+          <include name="extentSetUp"/>
+          <include name="enterToCityName"/>
+        </methods>
+      </class> <!-- com.makemytrip.test.MakeMytriptest -->
+    </classes>
+  </test> <!-- Selenium Assignment For Testing(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13242" started-at="2019-05-24T14:12:27Z" finished-at="2019-05-24T14:12:41Z">
+    <groups>
+    </groups>
+    <test name="Selenium Assignment For Testing" duration-ms="13242" started-at="2019-05-24T14:12:27Z" finished-at="2019-05-24T14:12:41Z">
+      <class name="com.makemytrip.test.MakeMytriptest">
+        <test-method status="PASS" signature="extentSetUp()[pri:0, instance:com.makemytrip.test.MakeMytriptest@4bbfb90a]" name="extentSetUp" is-config="true" duration-ms="133" started-at="2019-05-24T14:12:27Z" finished-at="2019-05-24T14:12:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentSetUp -->
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.makemytrip.test.MakeMytriptest@4bbfb90a]" name="setup" is-config="true" duration-ms="9921" started-at="2019-05-24T14:12:27Z" finished-at="2019-05-24T14:12:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.makemytrip.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="pagesetup()[pri:0, instance:com.makemytrip.test.MakeMytriptest@4bbfb90a]" name="pagesetup" is-config="true" duration-ms="19" started-at="2019-05-24T14:12:37Z" finished-at="2019-05-24T14:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagesetup -->
+        <test-method status="PASS" signature="selectRountTript()[pri:1, instance:com.makemytrip.test.MakeMytriptest@4bbfb90a]" name="selectRountTript" duration-ms="260" started-at="2019-05-24T14:12:37Z" finished-at="2019-05-24T14:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRountTript -->
+        <test-method status="PASS" signature="pagesetup()[pri:0, instance:com.makemytrip.test.MakeMytriptest@4bbfb90a]" name="pagesetup" is-config="true" duration-ms="0" started-at="2019-05-24T14:12:38Z" finished-at="2019-05-24T14:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagesetup -->
+        <test-method status="PASS" signature="enterciytName()[pri:2, instance:com.makemytrip.test.MakeMytriptest@4bbfb90a]" name="enterciytName" duration-ms="645" started-at="2019-05-24T14:12:38Z" finished-at="2019-05-24T14:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterciytName -->
+        <test-method status="PASS" signature="pagesetup()[pri:0, instance:com.makemytrip.test.MakeMytriptest@4bbfb90a]" name="pagesetup" is-config="true" duration-ms="1" started-at="2019-05-24T14:12:38Z" finished-at="2019-05-24T14:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagesetup -->
+        <test-method status="PASS" signature="enterToCityName()[pri:3, instance:com.makemytrip.test.MakeMytriptest@4bbfb90a]" name="enterToCityName" duration-ms="1702" started-at="2019-05-24T14:12:38Z" finished-at="2019-05-24T14:12:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterToCityName -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.makemytrip.test.MakeMytriptest@4bbfb90a]" name="afterClass" is-config="true" duration-ms="665" started-at="2019-05-24T14:12:40Z" finished-at="2019-05-24T14:12:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.makemytrip.test.MakeMytriptest -->
+    </test> <!-- Selenium Assignment For Testing -->
+  </suite> <!-- Suite -->
+</testng-results>
